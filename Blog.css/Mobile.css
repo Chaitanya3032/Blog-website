@@ -1,0 +1,48 @@
+@media screen and (max-width : 1200px) {
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .nav-right{
+        margin-bottom: 19px;
+    }
+
+    .nav-left ul{
+        margin-bottom: 19px;
+    }
+
+    .content-right{
+        display: none;
+    }
+
+    .home-article{
+        flex-direction: column;
+    }
+    
+    .home-article img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .social{
+        padding: 0;
+    }
+
+    .post-img{
+        height: auto;
+        width: 100%;
+    }
+}

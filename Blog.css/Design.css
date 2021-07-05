@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navigation{
+margin-top: 23px;
+font-family: var(--font1);
+/* height: 62px; */
+/* background-color: blue; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-left{
+    display: flex;
+    
+}
+.nav-left a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left span{
+    font-size: 35px;
+    padding-top: 5px;
+
+}
+
+.nav-left ul li{
+    list-style-type: none;
+    display: flex;
+    margin: 0px 14px;
+    font-family: var(--font2);
+    
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+    /* transition: all 0.3s ease-in-out; */
+}
+
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0px 106px;
+    font-size: 22px;
+    /* padding-bottom: 10px; */
+}
+
+.nav-right{
+
+}
+
+
+.content{
+height: 100%;
+margin-top: 10px;
+/* background-color: rgb(236, 229, 243); */
+display: flex;
+/* align-items: center; */
+/* justify-items: center; */
+padding: 9px;
+position: relative;
+}
+
+.content::after{
+    content: "";
+    background-image: url('/img/download.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 15px;
+    
+}
+
+.content-left{
+    font-family: var(--font1);
+    display: flex;
+    padding: 50px;
+    /* width: 50%; */
+    flex-direction: column;
+    /* z-index: 1; */
+    /* align-items: center; */
+    /* justify-items: center; */
+}
+
+.content-right{
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.content-right img{
+    height: 270px;
+    border: 3px solid black;
+    border-radius: 200px;
+}
+
+.home-articles{
+    padding: 12px;
+    margin-top: 23px;
+    background-color: rgb(245, 243, 243,0.5);
+    border-radius: 15px;
+    /* height: 455px; */
+}
+
+/* .home-articles{
+
+} */
+
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+.home-article img{
+    display: flex;
+    height: 190px;
+    width: 355px;
+}
+
+.home-article-content{
+    align-self: center;
+    padding: 30px;
+}
+
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+height: 50px;
+background-color: var(--main-bg-color);
+display: flex;
+align-items: center;
+justify-content: center;
+color:white;
+flex-direction: column;
+}
+
+.footer a{
+    color:white;
+    text-decoration: none;
+}
+
+
